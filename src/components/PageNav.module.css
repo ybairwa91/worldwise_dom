@@ -1,4 +1,14 @@
 .nav {
+  background-color: red;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +30,7 @@
   font-weight: 600;
 }
 
-/* CSS Modules feature */
+ CSS Modules feature 
 .nav a:global(.active) {
   color: var(--color-brand--2);
 }
@@ -31,4 +41,4 @@ a.ctaLink:visited {
   color: var(--color-dark--0);
   padding: 0.8rem 2rem;
   border-radius: 7px;
-}
+} */
