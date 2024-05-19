@@ -11,7 +11,7 @@ function PageNav() {
           <Link to="/product">product</Link>
         </li>
         <li>
-          <Link to="/pricing">Home</Link>
+          <Link to="/pricing">pricing</Link>
         </li>
       </ul>
     </nav>
