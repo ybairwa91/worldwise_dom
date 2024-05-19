@@ -1,5 +1,7 @@
 // import styles from "./Homepage.module.css";
 
+import { Link } from "react-router-dom";
+
 // export default function Homepage() {
 //   return (
 //     <main className={styles.homepage}>
@@ -23,9 +25,10 @@ function Homepage() {
   return (
     <div>
       <h1>WorldWise</h1>
-      <a href="/pricing">Pricing</a>
+      <Link to="/pricing">Pricing</Link>
     </div>
   );
 }
 
 export default Homepage;
+// <a href="/pricing">Pricing</a>
