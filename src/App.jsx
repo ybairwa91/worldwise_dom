@@ -3,7 +3,6 @@ import Product from "./pages/Product";
 import Homepage from "./pages/Homepage";
 import Pricing from "./pages/Pricing";
 import PageNotFound from "./pages/PageNotFound";
-import PageNav from "./components/PageNav";
 
 function App() {
   return (
@@ -19,5 +18,3 @@ function App() {
 }
 
 export default App;
-
-// <h1>Hello Router!</h1>
