@@ -3,10 +3,12 @@ import Product from "./pages/Product";
 import Homepage from "./pages/Homepage";
 import Pricing from "./pages/Pricing";
 import PageNotFound from "./pages/PageNotFound";
+import PageNav from "./components/PageNav";
 
 function App() {
   return (
     <div>
+      <PageNav />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Homepage />} />
